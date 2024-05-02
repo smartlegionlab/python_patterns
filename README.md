@@ -1,5 +1,48 @@
 # Python Patterns
-A collection of design patterns and idioms in Python (With tests).
+A collection of design patterns and idioms in Python.
+***
+
+## Current Patterns
+
+__Creational Patterns__:
+
+| Pattern | Description |
+|:-------:| ----------- |
+| [Abstract Factory](patterns/creational/abstract_factory.py) | use a generic function with specific factories |
+| [Builder](patterns/creational/builder.py) | instead of using multiple constructors, builder  receives parameters and returns constructed objects |
+| [Factory Method](patterns/creational/factory.py) | delegate a specialized function/method to create instances|
+| [Prototype](patterns/creational/prototype.py) | use a factory and clones of a prototype for new instances (if instantiation is expensive) |
+| [Singleton](patterns/creational/singleton.py) | Ensures that the class has only one instance, and provides a global access point to it. |
+
+__Structural Patterns__:
+
+| Pattern | Description |
+|:-------:| ----------- |
+| [Adapter](patterns/structural/adapter.py) | converts the interface of one class to the interface of another that clients expect. |
+| [Bridge](patterns/structural/bridge.py) | a client-provider middleman to soften interface changes |
+| [Composite](patterns/structural/composite.py) | lets clients treat individual objects and compositions uniformly |
+| [Decorator](patterns/structural/decorator.py) | wrap functionality with other functionality in order to affect outputs |
+| [Facade](patterns/structural/facade.py) | use one class as an API to a number of others |
+| [Flyweight](patterns/structural/flyweight.py) | transparently reuse existing instances of objects with similar/identical state |
+| [Proxy](patterns/structural/proxy.py) | an object funnels operations to something else |
+
+__Behavior Patterns__:
+
+| Pattern | Description |
+|:-------:| ----------- |
+| [Blackboard](patterns/behavioral/blackboard.py) | architectural model, assemble different sub-system knowledge to build a solution, AI approach - non gang of four pattern. |
+| [chain_of_responsibility](patterns/behavioral/chain_of_responsibility.py) | apply a chain of successive handlers to try and process the data. |
+| [command](patterns/behavioral/command.py) | bundle a command and arguments to call later. |
+| [interpreter](patterns/behavioral/interpreter.py) | a behavioral design pattern that solves a frequently encountered but subject to change problem. |
+| [iterator](patterns/behavioral/iterator.py) | traverse a container and access the container's elements. |
+| [mediator](patterns/behavioral/mediator.py) | an object that knows how to connect other objects and act as a proxy. |
+| [memento](patterns/behavioral/memento.py) | generate an opaque token that can be used to go back to a previous state. |
+| [observer](patterns/behavioral/observer.py) | provide a callback for notification of events/changes to data. |
+| [state](patterns/behavioral/state.py) | logic is organized into a discrete number of potential states and the next state that can be transitioned to. |
+| [strategy](patterns/behavioral/strategy.py) | selectable operations over the same data. |
+| [template_method](patterns/behavioral/template_method.py) |defines the basis of the algorithm and allows subclasses to override some of the steps in the algorithm, without changing its structure as a whole. |
+| [visitor](patterns/behavioral/visitor.py) | invoke a callback for all items of a collection. |
+
 ***
 
 ## Disclaimer of liability:
