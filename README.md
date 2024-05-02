@@ -28,20 +28,20 @@ __Structural Patterns__:
 
 __Behavior Patterns__:
 
-| Pattern | Description |
-|:-------:| ----------- |
-| [Blackboard](patterns/behavioral/blackboard.py) | architectural model, assemble different sub-system knowledge to build a solution, AI approach - non gang of four pattern. |
-| [chain_of_responsibility](patterns/behavioral/chain_of_responsibility.py) | apply a chain of successive handlers to try and process the data. |
-| [command](patterns/behavioral/command.py) | bundle a command and arguments to call later. |
-| [interpreter](patterns/behavioral/interpreter.py) | a behavioral design pattern that solves a frequently encountered but subject to change problem. |
-| [iterator](patterns/behavioral/iterator.py) | traverse a container and access the container's elements. |
-| [mediator](patterns/behavioral/mediator.py) | an object that knows how to connect other objects and act as a proxy. |
-| [memento](patterns/behavioral/memento.py) | generate an opaque token that can be used to go back to a previous state. |
-| [observer](patterns/behavioral/observer.py) | provide a callback for notification of events/changes to data. |
-| [state](patterns/behavioral/state.py) | logic is organized into a discrete number of potential states and the next state that can be transitioned to. |
-| [strategy](patterns/behavioral/strategy.py) | selectable operations over the same data. |
-| [template_method](patterns/behavioral/template_method.py) |defines the basis of the algorithm and allows subclasses to override some of the steps in the algorithm, without changing its structure as a whole. |
-| [visitor](patterns/behavioral/visitor.py) | invoke a callback for all items of a collection. |
+|                                  Pattern                                  | Description |
+|:-------------------------------------------------------------------------:| ----------- |
+|              [Blackboard](patterns/behavioral/blackboard.py)              | architectural model, assemble different sub-system knowledge to build a solution, AI approach - non gang of four pattern. |
+| [Chain Of Responsibility](patterns/behavioral/chain_of_responsibility.py) | apply a chain of successive handlers to try and process the data. |
+|                 [Command](patterns/behavioral/command.py)                 | bundle a command and arguments to call later. |
+|             [Interpreter](patterns/behavioral/interpreter.py)             | a behavioral design pattern that solves a frequently encountered but subject to change problem. |
+|                [Iterator](patterns/behavioral/iterator.py)                | traverse a container and access the container's elements. |
+|                [Mediator](patterns/behavioral/mediator.py)                | an object that knows how to connect other objects and act as a proxy. |
+|                 [Memento](patterns/behavioral/memento.py)                 | generate an opaque token that can be used to go back to a previous state. |
+|                [Observer](patterns/behavioral/observer.py)                | provide a callback for notification of events/changes to data. |
+|                   [State](patterns/behavioral/state.py)                   | logic is organized into a discrete number of potential states and the next state that can be transitioned to. |
+|                [Strategy](patterns/behavioral/strategy.py)                | selectable operations over the same data. |
+|         [Template Method](patterns/behavioral/template_method.py)         |defines the basis of the algorithm and allows subclasses to override some of the steps in the algorithm, without changing its structure as a whole. |
+|                 [Visitor](patterns/behavioral/visitor.py)                 | invoke a callback for all items of a collection. |
 
 ***
 
